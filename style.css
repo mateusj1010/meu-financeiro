@@ -8,3 +8,4 @@
 #categoryList .category-row>div{display:flex;flex:0 0 auto;gap:8px}
 #categoryList .category-row button{min-height:40px;padding:9px 11px;border:1px solid #40536c}
 #categoryList [data-remove-category]{color:#ffc0c0;background:#492934;border-color:#85505c}
+#cartoes .panel small{color:#a8bdd2;line-height:1.7}#assinaturas .item{align-items:flex-start}#assinaturas .right{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:5px}#subscriptionActive{width:auto;margin-right:8px}dialog{max-height:90dvh;overflow:auto}

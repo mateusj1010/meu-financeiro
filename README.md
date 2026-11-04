@@ -37,3 +37,14 @@ Em Configurações, crie, renomeie ou exclua categorias. Também é possível cr
 
 ## v1.2: categorias
 Ações Editar/Excluir visíveis. Ao excluir categoria em uso, informe outra categoria existente para reclassificar as movimentações antes da remoção. Atualização do service worker para preferir arquivos novos quando online.
+
+
+## Versão 1.3 — cartões e assinaturas
+
+- Cartões: nome, limite informativo, fechamento e vencimento; compras parceladas e pagamentos de fatura.
+- A compra no cartão entra nas despesas do mês da parcela, sem reduzir o saldo da conta bancária. O pagamento da fatura reduz o saldo bancário e não entra novamente nas despesas dos relatórios.
+- Assinaturas: valor, categoria, dia, forma de pagamento (conta/cartão), ativação, edição e exclusão. Clique em **Gerar cobranças deste mês**; não há geração automática em segundo plano.
+- Assinaturas no cartão são lançadas na fatura conforme o fechamento.
+- As informações permanecem no mesmo armazenamento local `meu-financeiro-v1`, preservando os dados anteriores no mesmo endereço e navegador. Faça backup antes de atualizar.
+
+**Limitações:** a fatura é uma visão simplificada e não contempla juros, estornos, pagamentos parciais por competência, antecipações e ajustes de limite; o limite cadastrado é informativo. A geração de assinaturas é manual e requer confirmação. Excluir uma parcela individual não remove as demais.
