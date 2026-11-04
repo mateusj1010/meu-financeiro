@@ -31,3 +31,9 @@ Aplicativo estático para celular, hospedável gratuitamente no GitHub Pages.
 
 ## Próxima etapa
 Criar Supabase Auth + PostgreSQL com Row Level Security e migração de dados locais, além de importação bancária robusta, itens de nota e categorias sugeridas.
+
+## Categorias personalizadas
+Em Configurações, crie, renomeie ou exclua categorias. Também é possível criar uma categoria ao registrar uma movimentação. Renomear atualiza lançamentos existentes; categorias em uso não podem ser excluídas.
+
+## v1.2: categorias
+Ações Editar/Excluir visíveis. Ao excluir categoria em uso, informe outra categoria existente para reclassificar as movimentações antes da remoção. Atualização do service worker para preferir arquivos novos quando online.
