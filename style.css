@@ -9,3 +9,6 @@
 #categoryList .category-row button{min-height:40px;padding:9px 11px;border:1px solid #40536c}
 #categoryList [data-remove-category]{color:#ffc0c0;background:#492934;border-color:#85505c}
 #cartoes .panel small{color:#a8bdd2;line-height:1.7}#assinaturas .item{align-items:flex-start}#assinaturas .right{display:flex;flex-wrap:wrap;justify-content:flex-end;gap:5px}#subscriptionActive{width:auto;margin-right:8px}dialog{max-height:90dvh;overflow:auto}
+
+/* v1.5 — revisão de produtos */
+#receiptDialog{width:min(96vw,650px);max-height:90dvh;overflow-y:auto}#receiptReviewForm{max-width:100%}.receipt-item{border:1px solid #334155;border-radius:12px;padding:12px;margin:10px 0;background:#101d30}.receipt-grid{display:grid;grid-template-columns:1fr 1fr;gap:10px}.receipt-row-bottom{display:flex;justify-content:flex-end;margin-top:8px}.receipt-totals{display:flex;flex-wrap:wrap;gap:12px;justify-content:space-between;padding:12px 0}.receipt-details{font-size:12px;margin-top:8px;color:#cbd5e1}.receipt-details summary{cursor:pointer;color:#7dd3fc}.receipt-details div{padding:4px 0;border-bottom:1px solid #334155}#receiptItems input,#receiptItems select{width:100%;min-width:0}
